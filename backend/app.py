@@ -14,7 +14,7 @@ CORS(app, resources={
         "origins": [
             "http://localhost:3000",
             "https://*.netlify.app",  # Allows all Netlify subdomains
-            "https://your-site-name.netlify.app"  # Replace with your actual Netlify URL
+            "https://medicine-prediction-app.netlify.app"  # Your Netlify URL
         ],
         "methods": ["GET", "POST", "OPTIONS"],
         "allow_headers": ["Content-Type"]
