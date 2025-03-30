@@ -1,5 +1,5 @@
 [build]
-  command = "cd frontend && npm install && CI=false npm run build"
+  command = "cd frontend && npm install && CI=false npx react-scripts build"
   publish = "frontend/build"
 
 [[redirects]]
