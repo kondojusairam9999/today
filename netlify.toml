@@ -3,7 +3,7 @@
   NPM_VERSION = "9"
 
 [build]
-  command = "npm install --prefix frontend && CI=false npm run build --prefix frontend"
+  command = "cd frontend && npm install && CI=false NODE_OPTIONS=--openssl-legacy-provider npm run build"
   publish = "frontend/build"
 
 [[redirects]]
