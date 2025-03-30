@@ -3,7 +3,7 @@
   NPM_VERSION = "9"
 
 [build]
-  command = "cd frontend && npm install && CI=false npm run build"
+  command = "cd frontend && npm install && CI=false ./node_modules/.bin/react-scripts build"
   publish = "frontend/build"
 
 [[redirects]]
